@@ -16,8 +16,10 @@ Las Collections
 // En Java, la mayoría de las colecciones derivan de una interface principal llamada Collection.
 
 //--Collection:
-// Es una interface de java public interface Collection<E> extends Iterable<E> {}
-// la cual proporciona métodos básicos cómo por ejemplo
+// Es la interface raíz de la jerarquía de colecciones,
+// definiendo el comportamiento fundamental para agrupar objetos individuales (elementos) en una sola unidad.
+// public interface Collection<E> extends Iterable<E> {},
+// esta interface proporciona métodos básicos cómo por ejemplo
 // boolean contains(Object 0):
 // Este metodo retorna true si y solo si la colección contiene un elemento especificado
 // int size():
@@ -26,4 +28,13 @@ Las Collections
 // Este metodo retorn true si la colección contiene al menos 1 elemento
 // boolean add(): permite agregar un nuevo elemento a la colección Si esta colección cambió como resultado de la llamada
 // boolean remove(): permite eliminar un elemento de la colección retorna true si el elemento se removió correctamente.
+// toArray(): convierte y devuelve los elementos de la matriz en un arreglo.
+
+
+// De esta interface Collection extienden interfaces cómo:
+// SequencedCollection:
+// Introdujo métodos cómo:
+// addLast(): El cual añade un elemento al final de la colección
+// addFirst()
+
 ============================================================================================================================
