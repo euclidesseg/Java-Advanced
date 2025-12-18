@@ -8,12 +8,12 @@ Las Collections
 // una estructura estándar.
 
 //--Colecciones en Java:
-// una colección es un conjunto de elementos que Java permite
+// una colección es un conjunto de elementos que permite
 // almacenar, recorrer y manipular, pudiendo o no tener orden dependiendo del tipo.
 // Por ejemplo, podemos imaginarlo como una carpeta de correos
 // que contiene múltiples mensajes.
 
-// En Java, la mayoría de las colecciones derivan de una interface principal llamada Collection.
+// En Java, algunas colecciones forman parte de la jerarquía cuya raíz es la interface Collection
 
 //--Collection:
 // Es la interface raíz de la jerarquía de colecciones,
@@ -25,16 +25,20 @@ Las Collections
 // int size():
 // Este metodo retorna el número de elementos de la colección
 // boolean isEmpty():
-// Este metodo retorn true si la colección contiene al menos 1 elemento
+// Este metodo retorna true si la colección NO contiene elementos
 // boolean add(): permite agregar un nuevo elemento a la colección Si esta colección cambió como resultado de la llamada
 // boolean remove(): permite eliminar un elemento de la colección retorna true si el elemento se removió correctamente.
-// toArray(): convierte y devuelve los elementos de la matriz en un arreglo.
+// toArray(): Devuelve un arreglo (Object[]) que contiene todos los elementos de la colección.
 
 
-// De esta interface Collection extienden interfaces cómo:
-// SequencedCollection:
-// Introdujo métodos cómo:
-// addLast(): El cual añade un elemento al final de la colección
-// addFirst()
+
+// A partir de Java 21, algunas colecciones que mantienen un orden definido
+// extienden la interfaz SequencedCollection, la cual introduce métodos como:
+
+// addFirst(): agrega un elemento al inicio
+// addLast(): agrega un elemento al final
+// getFirst(): obtiene el primer elemento
+// getLast(): obtiene el último elemento
+
 
 ============================================================================================================================
