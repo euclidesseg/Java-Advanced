@@ -1,0 +1,14 @@
+==============================================================================
+// Una Java List:
+// Es sobre todo adecuada para escenarios en los que el tamaño del conjunto
+// de datos no se conoce de antemano o puede cambiar con el tiempo.
+// Las listas son una de las estructuras de datos básicas en la programación Java
+// y tienen una amplia gama de aplicaciones. Contienen elementos en un orden
+// específico que pueden añadirse, modificarse, borrarse o consultarse.
+// Se utilizan en la implementación de algoritmos de ordenación,
+// algoritmos de búsqueda o estructuras de pilas y colas.
+
+// Las listas de Java pertenecen a la interfaz collections y deben importarse
+// desde el paquete java.util.
+// Las clases de implementación incluyen Java ArrayList, LinkedList, Vector y Stack.
+==============================================================================

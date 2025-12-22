@@ -1,23 +1,18 @@
 
-Las Collections
 ============================================================================================================================
-// Antes de profundizar en las Collections, debemos entender qué es el Java Collections Framework.
 //--Java Collections Framework:
-// Es todo un conjunto de clases, interfaces y algoritmos que java provee
-// para trabajar con Colecciones de datos de forma estándar, no es una sola clase ni interface es toda
-// una estructura estándar.
+// Es una arquitectura unificada para representar y manipular colecciones,
+// lo que permite manipularlas independientemente de los detalles de implementación.
 
 //--Colecciones en Java:
-// una colección es un conjunto de elementos que permite
-// almacenar, recorrer y manipular, pudiendo o no tener orden dependiendo del tipo.
+// Una colección en Java es un contenedor de objetos que permite agruparlos y manejarlos como una sola unidad.
 // Por ejemplo, podemos imaginarlo como una carpeta de correos
 // que contiene múltiples mensajes.
 
-// En Java, algunas colecciones forman parte de la jerarquía cuya raíz es la interface Collection
 
 //--Collection:
-// Es la interface raíz de la jerarquía de colecciones,
-// definiendo el comportamiento fundamental para agrupar objetos individuales (elementos) en una sola unidad.
+// Es una interfaz fundamental que representa un grupo de objetos y forma la base de Java Collections Framework,
+// definiendo el comportamiento para agrupar objetos individuales (elementos) en una sola unidad.
 // public interface Collection<E> extends Iterable<E> {},
 // esta interface proporciona métodos básicos cómo por ejemplo
 // boolean contains(Object 0):
