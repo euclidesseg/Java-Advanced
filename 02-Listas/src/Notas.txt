@@ -8,7 +8,13 @@
 // Se utilizan en la implementación de algoritmos de ordenación,
 // algoritmos de búsqueda o estructuras de pilas y colas.
 
-// Las listas de Java pertenecen a la interfaz collections y deben importarse
-// desde el paquete java.util.
+// Las listas de Java pertenecen a la interfaz collections que a su vez pertenece a la arquitectura de java collection framework
 // Las clases de implementación incluyen Java ArrayList, LinkedList, Vector y Stack.
+// siende ArrayList la implementacion o estructura de datos mas usada de las listas
+
+// Una List se usa cuando:
+// 1. Necesitamos mantener el orden de los elementos
+// 2. El tamaño de los datos pueden cambiar
+// 3. Cuando queremos y podemos mantener elementos duplicados
+// 4. Necesitamos acceder a los elementos por índice
 ==============================================================================
