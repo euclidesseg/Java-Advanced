@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -48,5 +49,23 @@ public class Main {
         for (String letter : letters){
             System.out.println(letter);
         }
+
+
+        // Ordenar una lista
+
+        List<Integer> numbers = new ArrayList<>();
+        numbers.add(4);
+        numbers.add(57);
+        numbers.add(45);
+        numbers.add(2);
+        numbers.add(91);
+        numbers.add(32);
+
+        numbers.sort(Comparator.naturalOrder());
+        System.out.println("\n");
+        for (int number: numbers){
+            System.out.println(number);
+        }
+
     }
 }
