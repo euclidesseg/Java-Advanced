@@ -1,5 +1,6 @@
 ==============================================================================
 // Una Java List:
+// Una lista es un conjunto de elementos ordenados que permite elementos duplicados.
 // Es sobre todo adecuada para escenarios en los que el tamaño del conjunto
 // de datos no se conoce de antemano o puede cambiar con el tiempo.
 // Las listas son una de las estructuras de datos básicas en la programación Java
