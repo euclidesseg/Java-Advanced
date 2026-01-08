@@ -1,0 +1,10 @@
+======================================================================
+El ArrayList es una de las estructuras de datos más utilizadas en Java.
+Permite modificar y almacenar dinámicamente una colección de objetos.
+
+Diferencia entrea Array y ArrayList
+Un arrayList tiene un tamaño dinámico lo que significa que puede crecer o disminuir según la necesidad
+ademas la Clase ArrayList pertenece a la arquitectura de Java Collection Framework
+Un array contiene un tamaño fijo por lo que el tamaño del arreglo debe conocerse
+de antemano
+======================================================================
