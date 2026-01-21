@@ -1,0 +1,35 @@
+========================================================================================================================
+// -- Java LinkedList:
+// En Java, una LinkedList o lista doblemente enlazada es una clase que extiende de la clase
+// AbstractSequentialList e implementa la interfaz List.
+//
+// En Java, una lista doblemente enlazada es una estructura de datos formada por nodos
+// que tienen la siguiente estructura:
+
+class Node {
+    int data;
+    Node next;
+    Node prev;
+}
+// Estas listas doblemente enlazadas se componen de tres partes, algunos datos y las dos direcciones
+
+// -- Características
+// Permiten duplicados
+// Implementa las interfaces List y Deque.
+// Puede comportarse como lista, pila (Stack) o cola doble (Deque).
+// El comportamiento depende del método utilizado (add, push, poll, pop, etc.).
+// Implementa las interfaces List y Deque.
+
+// -- Ventajas frente a listas basadas en arreglos (ArrayList)
+// Permiten realizar inserciones o eliminaciones al principio o al final sin desplazamientos.
+
+// -- Desventajas frente a listas basadas en arreglos (ArrayList)
+// Acceso lento: lista.get(100). Para acceder de esta manera, debe recorrer 100 nodos.
+// Consumen más memoria.
+// No son buenas para búsquedas frecuentes.
+
+// -- Cuándo usar LinkedList
+// Cuando se insertan o eliminan muchos elementos.
+// Para trabajos con colas o pilas.
+// Cuando no se requiere acceso por índice de forma frecuente.
+========================================================================================================================

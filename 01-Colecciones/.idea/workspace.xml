@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="269d2a8e-6d1a-4036-9049-e4c69f7ccf3c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Colecciones/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Colecciones/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Colecciones/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Colecciones/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Colecciones/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Colecciones/Colecciones.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Colecciones/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Colecciones/src/Notas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0.0-plan_estudio_java_advanced.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +29,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/eucli/REPOS/Java-Advanced/01-Colecciones"
   }
 }]]></component>
@@ -52,6 +46,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="269d2a8e-6d1a-4036-9049-e4c69f7ccf3c" name="Changes" comment="" />
