@@ -1,0 +1,38 @@
+==============================================================================
+Java Vector:
+Es un tipo de array dinámico y puede crecer o menguar, este vino a reemplazar el problema del tamaño
+estático de los arrays String[] array = new String[5]. Con esta clase podemos almacenar
+un grupo de elementos como objetos simples y manipularlos mediante diversos métodos.
+
+La clase Vector está disponible en el paquete java.util, por lo tanto, pertenece al framework de colecciones de java
+y puede usarse si no se conoce el tamaño del array de antemano.
+
+Cabe destacar que la clase Vector es bastante antigua, y que han surgido colecciones posteriores como Arraylist
+que pueden reemplazarla en la gran mayoría de los casos.
+
+Algunos métodos vectoriales conocidos son:
+
+void add(int index, Object element): inserta el elemento especificado en la posicion especificada del vector.
+boolean add(Object 0): agrega el elemento especificado en la posicion final del vector
+boolean addAll(Collection c): Agrega todos loe elementos de la coleccion especificada al final del vector.
+int capacity(): devuelve la capacidad actual de ese vector por defecto 10 si no se especifica
+viid clear(): elimina todos los elementos de ese vector
+boolean contains(Object elem): devuelve true si el vector contiene el elemento especificado
+void removeAllElements() :elimina todos los componentes del vector y establece su tamaño en cero.
+boolean isEmpty() :comprueba si este vector está vacío.
+int size() :devuelve el número de elementos en este vector.
+String toString() :devuelve una representación de cadena de este vector
+int indexOf(Object element): busca la primera aparicion del elemento dado
+
+
+
+Aunque su uso es limitado y poco demandado hoy en día,
+aquí están algunos casos de uso específicos donde podría emplearse Vector en Java:
+Cuando se necesita sincronización automática:
+Vector es thread-safe, lo que significa que todos sus métodos están sincronizados.
+Puede ser útil en aplicaciones antiguas donde múltiples hilos acceden a la misma estructura de datos
+
+En sistemas legacy:
+Muchos sistemas antiguos (anteriores a Java 1.2) fueron desarrollados usando Vector.
+Si estás manteniendo o actualizando código legacy, probablemente lo encontrarás.
+==============================================================================
