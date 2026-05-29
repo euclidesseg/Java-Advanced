@@ -6,11 +6,50 @@
 // En Java, una lista doblemente enlazada es una estructura de datos formada por nodos
 // que tienen la siguiente estructura:
 
-class Node {
-    int data;
-    Node next;
-    Node prev;
+// =========================================================================
+    // 2. ANALOGÍA DEL TREN Y LOS VAGONES
+    // =========================================================================
+    /*
+     * Imagina que esta clase (MiLinkedList) es el "Dueño o Conductor" del tren:
+     * * - El Conductor NO carga pasajeros directamente sobre su espalda.
+     * - El Conductor solo tiene una libreta donde anota dos datos cruciales:
+     * ¿Dónde empieza el tren? (puntero 'first') y ¿Dónde termina? (puntero 'last').
+     * * - Si el Conductor quiere saber cuántos vagones hay, mira su contador ('size').
+     * - Si el Conductor quiere inspeccionar el vagón número 5, no puede teletransportarse.
+     * Debe ir obligatoriamente al vagón 'first' y usar los enganches para caminar
+     * vagón por vagón hasta llegar al destino.
+     */
+
+    // =========================================================================
+    // 3. LA CLASE PRIVADA INTERNA (El Vagón Individual)
+    // =========================================================================
+    /*
+     * Cada vagón del tren es una instancia de esta clase Node.
+     * La clase se define como "private" para que nadie fuera del tren pueda
+     * alterar los enganches internos por accidente.
+     */
+
+
+class LinkedList{
+	private int size = 0;       // Registra la cantidad total de nodos
+    	private Node<E> first;     // Puntero exclusivo al PRIMER nodo de la lista
+    	private Node<E> last;      // Puntero exclusivo al ÚLTIMO nodo de la lista
 }
+// linea 981
+private static class Node<E> {
+        E item;          // El Pasajero / El dato real guardado (String, Integer, etc.)
+        Node<E> next;    // Enganche hacia ADELANTE (Puntero al siguiente vagón)
+        Node<E> prev;    // Enganche hacia ATRÁS (Puntero al vagón anterior)
+
+        // Constructor del vagón: Se crea sabiendo quién está atrás, qué lleva dentro y quién está adelante
+        Node(Node<E> prev, E element, Node<E> next) {
+            this.item = element;
+            this.next = next;
+            this.prev = prev;
+        }
+    }
+
+
 // Estas listas doblemente enlazadas se componen de tres partes, algunos datos y las dos direcciones
 
 // -- Características
