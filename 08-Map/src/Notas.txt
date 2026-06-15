@@ -1,0 +1,28 @@
+   Los Maps en java son una estructura de datos que nos permiten representar y almacenar
+   pares clave valor se podrian ver como por ejemplo
+   {"Id1" "Carlos"}, En este ejemplo vemos que tando la clave "Id1" y el valor "Carlos", son de tipo string,
+   de tal manera que para una clave solo tenemos un valor, esta estructura de datos tambien es conocidad en otros lenguajes
+   de progamacion como diccionarios
+
+   ¿Porqué no hereda de Collection?
+   Aunque la interfaz Map y sus implementacionas HashMap y TreeMap pertenecen al framework de colecciones de
+   Java Collections Framework, sus estructuras de datos son conceptualmente incompatibles a nivel de codigo.
+
+   La interfaz Collection trabaja con elementos individuales: Estructuras como list y Set manejan un elemento
+   por posicion o nodo, sus metodos principales son de tipo add o remove
+
+   La interfaz Map trabaja con pares clave valor (Key-Value): Un mapa no guarda elementos sueltos, guarda asociaciones
+   mapeadas. sus metodos principales requieren dos parametros como put(K key, V value).
+
+   Si Map heredara de Collection, se romperia el principio de diseño de interfaces, ya que no tiene sentido utilizar el
+   metodo add(Object o) de las colecciones para agregar pares a un Map ya que este requeire obligatoriamente una clave y
+   un valor.
+
+    representacion visual formato Json de una coleccion
+    [
+      "Carlos",
+      "Ana",
+      "Pedro"
+    ]
+
+
