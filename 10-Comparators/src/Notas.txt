@@ -1,0 +1,5 @@
+En Java un Comparator es una interfaz que funciona como un juez on un manual de reglas le dice a java
+exactamente cómo dee comparar dos objetos para decidir cuál va primero y cual va después al momento de ordenar una lista.
+
+Hasta la llegada de java 8 comparar elemento habia sido bastante engorroso veamos un ejemplo clasico anttes
+de java 8 para luego evolucionarlo para ellos partiremos dese una lista de tipo personas.

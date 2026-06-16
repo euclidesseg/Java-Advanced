@@ -46,6 +46,8 @@ public class Main {
 
         //5. Ordenar un ArrayList
         Collections.sort(years, Comparator.reverseOrder());
+        // tambien podemos usar el sort de la pripia lista year ej:
+//        years.sort(Comparator.naturalOrder());
         System.out.println("Elementos ordenados");
         for (int year : years){
             System.out.println(year);

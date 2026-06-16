@@ -1,0 +1,4 @@
+Un iterador es un objeto que recorre un conjunto de datos de forma Homogenea, es decir, da lo mismo
+cual sea la estructura de datos que la forma de recorrerlo no cambia, imagina que un medico es un iterador
+pues el medico puede atender a un equipo de futbol por numeracion o un grupo de personas cualquiera en orden
+de llegada.
