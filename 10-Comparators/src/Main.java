@@ -11,21 +11,21 @@ public class Main {
         Persona p4= new Persona("ana","sainz","jimenez");
         Persona p5= new Persona("maria","alvarez","alvarez");
 
-        List<Persona> lista= Arrays.asList(p1,p2,p3,p4,p5);
-//        lista.sort((pa,pb) -> pa.getNombre().compareTo(pb.getNombre()));
-//        lista.forEach(System.out::println);
+        List<Persona> personas= Arrays.asList(p1,p2,p3,p4,p5);
+//        personas.sort((pa,pb) -> pa.getNombre().compareTo(pb.getNombre()));
+//        personas.forEach(System.out::println);
 //        System.out.println("\n");
-//        lista.sort((pa,pb)->pa.getApellido1().compareTo(pb.getApellido1()));
-//        lista.forEach(System.out::println);
+//        personas.sort((pa,pb)->pa.getApellido1().compareTo(pb.getApellido1()));
+//        personas.forEach(System.out::println);
 
         /* De esta manera se puede conseguir el mismo resultado pero sin necesidad de construir clases
         *  adicionales, además de eso las expresiones lamdas nos permiten la combinacion de comparadores
-        *  ejemplo si deseamos ordenar la lista primero por apellido1 y luego por apellido 2*/
+        *  ejemplo si deseamos ordenar la listas primero por apellido1 y luego por apellido 2*/
 
         Comparator<Persona> comparadorA = (pa, pb) -> pa.getApellido1().compareTo(pb.getApellido1());
         Comparator<Persona> comparadorB=comparadorA.thenComparing((pa,pb)->pa.getApellido2().compareTo(pb.getApellido2()));
-        lista.sort(comparadorB);
+        personas.sort(comparadorB);
 
-        lista.forEach(System.out::println);
+        personas.forEach(System.out::println);
     }
 }

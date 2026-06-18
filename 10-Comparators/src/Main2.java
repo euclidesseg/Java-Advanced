@@ -12,7 +12,7 @@ public class Main2 {
         Persona p5= new Persona("maria","alvarez","alvarez");
 
         // Creamos la lista
-        List<Persona> lista = Arrays.asList(p1,p2,p2,p3,p4,p5); // asList agrupar cómo lista
+        List<Persona> personas = Arrays.asList(p1,p2,p2,p3,p4,p5); // asList agrupar cómo lista
 
         /* Para ordenar esta lista requrimos implementar un java comparator, que decida de que manera
            se va a comparar cada elemento en este caso requerimos comparar por nombre por lo que creamos una
@@ -20,8 +20,10 @@ public class Main2 {
 
         //Utilizamos el comparador de nombre para ordenar la lista e imprimirla
 
-        lista.sort(new ComparadorNombre());
-        lista.forEach(System.out::println);
+        personas.sort(new ComparadorNombre());
+        // no requiero pasar un argumento de tipo Persona porque aqui java sabe que se está trabajando con la lista
+        // personas y el metodo sort ahora le pertenece a esta lista de tipo personas
+        personas.forEach(System.out::println);
         // La lista se imprime ordenada
 
         /* Hasta aquí To-do funciona bien, ahora, si queremos ordenar por apellido y posteriormente por
