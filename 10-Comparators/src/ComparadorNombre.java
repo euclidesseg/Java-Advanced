@@ -8,6 +8,18 @@ public class ComparadorNombre implements Comparator<Persona> {
     @Override
     public int compare(Persona p1, Persona p2) {
 
+        /*  El metodo compare es realmente el que hace la comparacion de par en par, mientras que el metodo personas.sort en Main2
+        *   va recorriendo la lista y agarrando parejas de dos en dos y las pasa a compare en cada vuelta el metodo personas.sort
+        *   toma dos personas donde una puede ser que ya paso, y las pasa por el compara hasta que encuentr su lugar en la lista
+        *  */
+        System.out.println(
+                "Comparando: "
+                        + p1.getNombre()
+                        + " con "
+                        + p2.getNombre()
+        );
+
+
         /* * El méto-do compare debe devolver un número entero (int):
          * - Negativo ( < 0): Si p1 va ANTES que p2.
          * - Cero ( == 0): Si p1 y p2 son IGUALES en orden.
