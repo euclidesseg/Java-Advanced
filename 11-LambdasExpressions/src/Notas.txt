@@ -1,0 +1,9 @@
+Las expresiones lambdas en Java son funciones anónimas, es decir, bloques de codigo
+con parámetros y cuerpo, pero sin nombre propio, que permiten tratar el comportamiento como si fueran datos
+de entrada.
+
+Estas expresiones se introdujeron en java a partir de la version 8 como parte del paradigma
+de programación funcional.
+
+y solo se pueden usar junto con cierto tipos de interfaces dichas interfaces solo contienen un método
+abstracto, mas conocidas cómo (interfaces funcionales)
