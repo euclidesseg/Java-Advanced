@@ -9,7 +9,7 @@ public class Main{
         *  mediante una lambda, es decir en vez de escribir una expresión lambda lo que hacemos es
         *  escribir un method reference para esto se debe considerar lo siguiente
         *
-        *  1. La implementaciond el metodo abstracto solo debe tener una línea de instrucciones
+        *  1. La implementación del metodo abstracto solo debe tener una línea de instrucciones
         *  2. Dentro de la línea de instrucciones debe existir la llamada a otro metodo*/
 
         Calculator c1 = (a,b) -> a+b; // No cumple las condiciones para remplazar por un method reference
@@ -17,6 +17,8 @@ public class Main{
         Calculator c2 = (a,b) -> { // Si cumple las condiciones par remplazar por un method reference, llamada a otro metodo y una línea de instrucciones
             return Operations.sumar(a,b);
         };
+
+        Calculator c4 = (a, b) -> Operations.sumar(a,b);
 
         Calculator c3 = Operations::sumar; // Uso del method reference
 
